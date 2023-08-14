@@ -1,7 +1,7 @@
 div h1{
     color: #323232;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 500;
     letter-spacing: -.40px;
     line-height: 1.5;
     margin: 0.83em 0;
@@ -15,4 +15,10 @@ div p{
     line-height: 1.4;
     opacity: .7;
     width: 90%;
+}
+.content-bar{
+    background-color: #979797;
+    display: inline-block;
+    height: 1px;
+    width: 100%;
 }
