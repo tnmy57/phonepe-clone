@@ -1,4 +1,21 @@
-.wideArea{
-    width: 100%;
-    height:fit-content
+.container{
+   width: 100%;
+    margin-top: 100px;
+    background-color: #fff;
+
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 1268px;
+    
+}
+.packet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
 }

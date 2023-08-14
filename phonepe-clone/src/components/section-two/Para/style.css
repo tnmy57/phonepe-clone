@@ -1,0 +1,18 @@
+div h1{
+    color: #323232;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -.40px;
+    line-height: 1.5;
+    margin: 0.83em 0;
+}
+div p{ 
+    margin: 14px 0px;
+    color: #232028;
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.4;
+    opacity: .7;
+    width: 90%;
+}

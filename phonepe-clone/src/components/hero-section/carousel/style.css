@@ -1,24 +1,28 @@
 #main{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.cover{
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#fff ;
-    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    max-width: 1920px;
+    max-height: 550px;
+    min-width: 1268px;
+    overflow: hidden;
     position: relative;
-    
 }
+
 .banner{
-width: 530px;
-position: absolute;
-top: 47px;
-left: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    position: absolute;
+    top: 47px;    
+    left: 150px;
 }
 .top{
+    width: 100%;
     display: flex;
     align-items: center;
 
@@ -40,6 +44,7 @@ left: 150px;
     margin: 0;
 }
 #pa{
+    width: 100%;
     color: #3e2a80;
     font-size: 38px;
     font-weight: 550;
@@ -47,9 +52,13 @@ left: 150px;
     margin: 16px 0 0;
 }
 #pb{
-        color: #371f7b;
+    width: 100%;
+    color: #371f7b;
     font-size: 22px;
     margin: 12px 0 24px;
+}
+.btn-container{
+    width: 100%;
 }
 button{
     background-color: #6739b7;
@@ -58,9 +67,12 @@ button{
     border-radius: 33px;
     color: #fff;
     font-weight: 600;
-    padding: 15px 50px;
+    padding: 16px 50px;
 }
-.cover img{
-    height: 400px;
-    overflow-y: hidden;
+#main img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
 }

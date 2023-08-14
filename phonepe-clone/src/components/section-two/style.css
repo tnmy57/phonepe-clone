@@ -1,0 +1,39 @@
+.container{
+   width: 100%;
+    margin-top: 100px;
+    background-color: #fff;
+
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 1268px;
+}
+.banner2{
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    padding: 20px 0 ;
+    width: 480px;
+    height: 100%;
+}
+.video{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.video video{
+    width: 100%;
+}
+.banner2>h1{
+    color: #361374;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -.57px;
+    line-height: 1.12;
+    margin: 0.67em 0;
+}
